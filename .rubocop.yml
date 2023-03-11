@@ -1,0 +1,17 @@
+AllCops:
+  Include:
+    - '**/Gemfile'
+    - Berksfile
+    - Rakefile
+    - metadata.rb
+    - attributes/**/*
+    - definitions/**/*
+    - libraries/**/*
+    - providers/**/*
+    - recipes/**/*
+    - resources/**/*
+    - spec/**/*
+    - test/**/*
+  Exclude:
+    - cookbooks/**/*
+    - vendor/**/*
